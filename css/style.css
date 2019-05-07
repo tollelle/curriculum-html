@@ -7,7 +7,6 @@ html, body{
     font-family     : 'Barlow Condensed', sans-serif;
     font-family     : 'Marvel', sans-serif;
     font-family     : 'Saira Condensed', sans-serif;
-
     font-weight     : 300;
 }
 strong,
@@ -32,6 +31,10 @@ h2{
 h3{
     font-size       : 1.5em;
     line-height     : 2rem;
+}
+
+h4{
+    font-size: 1.2em;
 }
 
 header,
@@ -95,6 +98,10 @@ img{
     transition      : all 0.3s ease-in-out;
 }
 
+i{
+    margin-right: 0.4em;
+}
+
 .fino{
     font-weight          : 100;
 }
@@ -148,16 +155,15 @@ section {
     margin       : auto 0.5em;
     line-height  : 1.3em;
 }
+
 .titulo{
-    transition          : 0.3s ease-in-out;
-}
-.titulo{
-    background-image     : linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
-    color                : #FFF;
-    font-weight          : 500;
-    padding              : 0.5em;
-    margin-bottom        : 0.5em;
-    text-transform       : uppercase;
+    transition      : 0.3s ease-in-out;
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    color           : #FFF;
+    padding         : 0.5em;
+    margin-bottom   : 0.5em;
+    text-transform  : uppercase;
+    border-radius   : 2px;
 }
 
 .titulo:hover{
