@@ -124,6 +124,8 @@ img{
 .wrapper img {
     width        : 100%;
     border-radius: 50%;
+    margin: 1em auto;
+    display: block;
 }
 
 
@@ -163,7 +165,9 @@ section {
 }
 
 .one {
-    background-color: #f1f1f1;
+
+    background-image     : linear-gradient( 100deg, #fdfbfb 10%, #f1f1f1 100%);
+    margin: -2em auto -1em auto;
     grid-column          : 1;
 }
 .two { 
@@ -197,9 +201,11 @@ section {
     }
 
     .wrapper img {
-        display: block;
         width : 90%;
-        margin: 1em auto auto auto;
+    }
+
+    .one {
+        margin:0;
     }
 }
 
@@ -213,10 +219,8 @@ section {
         column-count: 2;
         display: block;
     }
-
-    .wrapper img {
-        display: block;
-        margin: 0.5em auto;
-    }
-    
+  
+    .one {
+        margin:-1.5em auto 0 auto;
+    }  
 }
