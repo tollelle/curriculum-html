@@ -54,6 +54,7 @@ footer{
 }
 
 nav{
+    
     background-color: #000;
     text-transform  : uppercase;
     margin-bottom   : 1em;
@@ -82,37 +83,6 @@ nav > ul > li:hover{
 nav > ul > li:first-child {
     display: none;
 }
-
-/* Menú CSS responsivo */
-nav > ul {
-    overflow: hidden;
-  }
-  
-  /* menu */
-  
-  nav {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-  }
-
-/* menu icon */
-
-nav .menu-icon {
-    position: relative;
-    user-select: none;
-  }
-
-/* menu btn */
-
-nav .menu-btn {
-    display: none;
-  }
-  
-  nav .menu-btn:checked ~ nav {
-    max-height: 240px;
-  }
-/* Menú CSS responsivo */
 
 meter{
     width           : 100%;
